@@ -1,5 +1,7 @@
-import OverTheShellbags.defined_list.data_format as data_format
-from OverTheShellbags import converter as cv, storage_property_parser as storage_property_parser
+import OverTheShellbags_test.defined_list.data_format as data_format
+
+from OverTheShellbags_test import converter as cv
+from OverTheShellbags_test import storage_property_parser
 
 
 def parse(_extension_blocks, _debug=None):

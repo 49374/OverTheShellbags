@@ -1,4 +1,4 @@
-import OverTheShellbags.defined_list.data_type as data_type
+import OverTheShellbags_test.defined_list.data_type as data_type
 
 # 지금은 모두 Win10 기준.
 # TODO : Win XP, Vista, 8 포맷 추가

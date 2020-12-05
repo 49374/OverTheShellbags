@@ -1,5 +1,7 @@
-import OverTheShellbags.defined_list.data_format as data_format
-from OverTheShellbags import shell_item_parser as shell_item_parser, converter as cv
+import OverTheShellbags_test.defined_list.data_format as data_format
+
+from OverTheShellbags_test import converter as cv
+from OverTheShellbags_test import shell_item_parser
 
 
 def parse_mru_data(_regData):

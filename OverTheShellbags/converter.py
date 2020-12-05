@@ -1,6 +1,7 @@
+import OverTheShellbags_test.defined_list.guids as guids
+
 from datetime import datetime, timedelta
 
-import OverTheShellbags.defined_list.guids as guids
 
 timezone = 9
 GUID_dic  = guids.GUID

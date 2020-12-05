@@ -1,5 +1,8 @@
-import OverTheShellbags.defined_list.data_format as data_format
-from OverTheShellbags import converter as cv, parser
+import OverTheShellbags_test.defined_list.data_format as data_format
+
+from OverTheShellbags_test import converter as cv
+from OverTheShellbags_test import parser
+
 
 # TODO : Key 고려해서 개발
 # TODO : PropertyNamedValue 구분
@@ -27,7 +30,6 @@ def parse(_sps_blocks, _debug=None):
        sps_block_result.append(parsed_sps_block)
   return sps_block_result
 
-
 def parse_property_storage(_sps_block):
   (SPS_DATA, pos) = cv.format_parser(_sps_block, data_format.SPS_FORMAT, 0)
 
@@ -47,7 +49,6 @@ def parse_property_storage(_sps_block):
     spv_result_list.append(spv_result)
 
   return spv_result_list
-
 
 def parse_property_value(_sps_guid, _idx, _spv, _debug=None):
   spv_result = {
@@ -150,7 +151,6 @@ def parse_property_value(_sps_guid, _idx, _spv, _debug=None):
     # df.PrintBeauty(shell_item_result_list)
     # print(str_item)
     # print(search_result)
-
 
   elif value_type == 0x101F:    # VT_VECTOR(0x1000) | VT_LPWSTR
     vector_count = cv.bytes_to_int(value_data[0:4])
