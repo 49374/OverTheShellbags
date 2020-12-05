@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c1f3559-a089-4cb4-acaa-90d4d0bb66aa" name="Default Changelist" comment="Add vital files.">
+    <list default="true" id="9c1f3559-a089-4cb4-acaa-90d4d0bb66aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <list id="3385b3d9-397a-40a6-914b-bb44873fac67" name="Fix untracked files" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <list id="110081d9-f0d1-4e39-867c-f25e6ab5def4" name="Fixed untracked files" comment="">
       <change afterPath="$PROJECT_DIR$/Lib/site-packages/Pygments-2.7.2.dist-info/AUTHORS" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Lib/site-packages/Pygments-2.7.2.dist-info/INSTALLER" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Lib/site-packages/Pygments-2.7.2.dist-info/LICENSE" afterDir="false" />
@@ -990,16 +998,8 @@
       <change afterPath="$PROJECT_DIR$/Scripts/twine.exe" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Scripts/wheel.exe" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/dist/OverTheShellbags-0.0.1b0-py3-none-any.whl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/converter.py" beforeDir="false" afterPath="$PROJECT_DIR$/OverTheShellbags/converter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/defined_list/data_format.py" beforeDir="false" afterPath="$PROJECT_DIR$/OverTheShellbags/defined_list/data_format.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/defined_list/data_id.py" beforeDir="false" afterPath="$PROJECT_DIR$/OverTheShellbags/defined_list/data_id.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/defined_list/data_type.py" beforeDir="false" afterPath="$PROJECT_DIR$/OverTheShellbags/defined_list/data_type.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/defined_list/guids.py" beforeDir="false" afterPath="$PROJECT_DIR$/OverTheShellbags/defined_list/guids.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/errors.py" beforeDir="false" afterPath="$PROJECT_DIR$/errors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension_block_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/OverTheShellbags/extension_block_parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shell_item_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/OverTheShellbags/shell_item_parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage_property_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/OverTheShellbags/storage_property_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug_func.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/errors.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1025,6 +1025,23 @@
         <option value="D:\07. Source Code\Python\OverTheShellbags\.idea" />
       </set>
     </option>
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/.idea/workspace.xml">
+      <ranges>
+        <range start1="3" end1="992" start2="3" end2="4" changelist="3385b3d9-397a-40a6-914b-bb44873fac67" />
+        <range start1="993" end1="1002" start2="5" end2="997" changelist="3385b3d9-397a-40a6-914b-bb44873fac67" />
+        <range start1="1089" end1="1089" start2="1084" end2="1085" changelist="3385b3d9-397a-40a6-914b-bb44873fac67" />
+        <range start1="1094" end1="1095" start2="1090" end2="1091" changelist="3385b3d9-397a-40a6-914b-bb44873fac67" />
+        <range start1="1103" end1="1104" start2="1099" end2="1114" changelist="3385b3d9-397a-40a6-914b-bb44873fac67" />
+        <range start1="1128" end1="1129" start2="1138" end2="1141" changelist="3385b3d9-397a-40a6-914b-bb44873fac67" />
+        <range start1="1140" end1="1141" start2="1152" end2="1153" changelist="3385b3d9-397a-40a6-914b-bb44873fac67" />
+        <range start1="1143" end1="1145" start2="1155" end2="1157" changelist="3385b3d9-397a-40a6-914b-bb44873fac67" />
+        <range start1="1147" end1="1148" start2="1159" end2="1160" changelist="9c1f3559-a089-4cb4-acaa-90d4d0bb66aa" />
+        <range start1="1180" end1="1181" start2="1192" end2="1197" changelist="3385b3d9-397a-40a6-914b-bb44873fac67" />
+        <range start1="1183" end1="1184" start2="1199" end2="1200" changelist="3385b3d9-397a-40a6-914b-bb44873fac67" />
+      </ranges>
+    </file>
   </component>
   <component name="ProjectId" id="1lF8jGrA1WcvVlygsO7uf0iWg8s" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -1087,12 +1104,14 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9c1f3559-a089-4cb4-acaa-90d4d0bb66aa" name="Default Changelist" comment="" />
+      <changelist id="110081d9-f0d1-4e39-867c-f25e6ab5def4" name="Fixed untracked files" comment="" />
+      <changelist id="3385b3d9-397a-40a6-914b-bb44873fac67" name="Fix untracked files" comment="" />
       <created>1607181611561</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607181611561</updated>
       <workItem from="1607181613626" duration="365000" />
-      <workItem from="1607181991243" duration="2264000" />
+      <workItem from="1607181991243" duration="3136000" />
     </task>
     <task id="LOCAL-00001" summary="Add vital files.">
       <created>1607182651493</created>
@@ -1101,7 +1120,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607182651493</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Reformat Project structure for registering PyPI">
+      <created>1607184356709</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607184356709</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fix untracked files">
+      <created>1607184669949</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607184669949</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1126,7 +1159,9 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add vital files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add vital files." />
+    <MESSAGE value="Reformat Project structure for registering PyPI" />
+    <MESSAGE value="Fix untracked files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix untracked files" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -1138,14 +1173,14 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="536" y="512" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1410/2560.11.1920.1080@0.0.2560.1410" timestamp="1607183752363" />
-    <state x="735" y="312" width="761" height="675" key="CommitChangelistDialog2" timestamp="1607184264956">
+    <state x="735" y="312" width="761" height="675" key="CommitChangelistDialog2" timestamp="1607184667493">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="735" y="312" width="761" height="675" key="CommitChangelistDialog2/0.0.2560.1410/2560.11.1920.1080@0.0.2560.1410" timestamp="1607184264956" />
-    <state x="100" y="100" width="1559" height="1210" key="DiffContextDialog" timestamp="1607182501322">
+    <state x="735" y="312" width="761" height="675" key="CommitChangelistDialog2/0.0.2560.1410/2560.11.1920.1080@0.0.2560.1410" timestamp="1607184667493" />
+    <state x="100" y="100" width="1559" height="1210" key="DiffContextDialog" timestamp="1607185154821">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="100" y="100" width="1559" height="1210" key="DiffContextDialog/0.0.2560.1410/2560.11.1920.1080@0.0.2560.1410" timestamp="1607182501322" />
+    <state x="100" y="100" width="1559" height="1210" key="DiffContextDialog/0.0.2560.1410/2560.11.1920.1080@0.0.2560.1410" timestamp="1607185154821" />
     <state x="647" y="449" key="FileChooserDialogImpl" timestamp="1607183602373">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
@@ -1178,7 +1213,11 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="475" y="350" key="SettingsEditor/0.0.2560.1410/2560.11.1920.1080@0.0.2560.1410" timestamp="1607183091298" />
-    <state x="471" y="438" key="Vcs.Push.Dialog.v2" timestamp="1607182446041">
+    <state x="758" y="627" key="VCS.ChangelistChooser" timestamp="1607185015974">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="758" y="627" key="VCS.ChangelistChooser/0.0.2560.1410/2560.11.1920.1080@0.0.2560.1410" timestamp="1607185015974" />
+    <state x="471" y="438" key="Vcs.Push.Dialog.v2" timestamp="1607184677765">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="471" y="438" key="Vcs.Push.Dialog.v2/0.0.2560.1410/2560.11.1920.1080@0.0.2560.1410" timestamp="1607182446041" />

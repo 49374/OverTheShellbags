@@ -31,6 +31,7 @@ Include/
 *.egg
 MANIFEST
 pytvenv.cfg
+Scripts/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -123,40 +124,6 @@ dmypy.json
 # myfiles
 main.py
 main_dev.py
+errors.py
+debug_func.py
 *_collector.py
-
-Scripts/Activate.ps1
-Scripts/activate
-Scripts/activate.bat
-Scripts/chardetect.exe
-Scripts/deactivate.bat
-Scripts/easy_install-3.7-script.py
-Scripts/easy_install-3.7.exe
-Scripts/easy_install-script.py
-Scripts/easy_install.exe
-Scripts/keyring.exe
-Scripts/pip-script.py
-Scripts/pip.exe
-Scripts/pip3-script.py
-Scripts/pip3.7-script.py
-Scripts/pip3.7.exe
-Scripts/pip3.exe
-Scripts/pkginfo.exe
-Scripts/pygmentize.exe
-Scripts/python.exe
-Scripts/pythonw.exe
-Scripts/rst2html.py
-Scripts/rst2html4.py
-Scripts/rst2html5.py
-Scripts/rst2latex.py
-Scripts/rst2man.py
-Scripts/rst2odt.py
-Scripts/rst2odt_prepstyles.py
-Scripts/rst2pseudoxml.py
-Scripts/rst2s5.py
-Scripts/rst2xetex.py
-Scripts/rst2xml.py
-Scripts/rstpep2html.py
-Scripts/tqdm.exe
-Scripts/twine.exe
-Scripts/wheel.exe
