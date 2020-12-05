@@ -1,5 +1,6 @@
 # IDE
 .vscode/
+.idea/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -26,12 +27,14 @@ wheels/
 pip-wheel-metadata/
 share/python-wheels/
 Include/
+include/
 *.egg-info/
 .installed.cfg
 *.egg
 MANIFEST
 pytvenv.cfg
 Scripts/
+Lib
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -127,3 +130,4 @@ main_dev.py
 errors.py
 debug_func.py
 *_collector.py
+
