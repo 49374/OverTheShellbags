@@ -1,10 +1,9 @@
 import urllib.parse
 
-import converter as cv
-import defined_list.data_format as data_format
-import defined_list.data_id as data_id
-import extension_block_parser as extension_block_parser
-import storage_property_parser as storage_property_parser
+import OverTheShellbags.defined_list.data_format as data_format
+import OverTheShellbags.defined_list.data_id as data_id
+from OverTheShellbags import converter as cv, extension_block_parser as extension_block_parser, \
+  storage_property_parser as storage_property_parser
 
 
 def parse_root_folder(_regData, _shell_item_result, _info):

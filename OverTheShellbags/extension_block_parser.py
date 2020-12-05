@@ -1,6 +1,5 @@
-import converter as cv
-import defined_list.data_format as data_format
-import storage_property_parser as storage_property_parser
+import OverTheShellbags.defined_list.data_format as data_format
+from OverTheShellbags import converter as cv, storage_property_parser as storage_property_parser
 
 
 def parse(_extension_blocks, _debug=None):
@@ -105,13 +104,13 @@ def parse_extension_block(_extension_block):
 def parse_file_extension_block(_extension_block, _extension_version, _extension_block_result):
   # TODO : WinXP ~ Win 8 추가 필요.
   (FILE_EXTENSION_BLOCK_COMMON, pos) = cv.format_parser(_extension_block,
-                                                    data_format.FILE_EXTENSION_BLOCK_COMMON_FORMAT, 0)
+                                                        data_format.FILE_EXTENSION_BLOCK_COMMON_FORMAT, 0)
   _extension_block_result["ctime"] = cv.msdos_timestamp(FILE_EXTENSION_BLOCK_COMMON["fat_ctime"])
   _extension_block_result["atime"] = cv.msdos_timestamp(FILE_EXTENSION_BLOCK_COMMON["fat_atime"])
 
   if _extension_version == 9:       # Win8.1 ~ Win10
     (FILE_EXTENSION_BLOCK_DATA, pos) = cv.format_parser(FILE_EXTENSION_BLOCK_COMMON["data"],
-                                                    data_format.FILE_EXTENSION_BLOCK_WIN81_FORMAT, 0)
+                                                        data_format.FILE_EXTENSION_BLOCK_WIN81_FORMAT, 0)
     mft_reference   = FILE_EXTENSION_BLOCK_DATA["mft_reference"]
     name_size       = cv.bytes_to_int(FILE_EXTENSION_BLOCK_DATA["name_size"])
     dummy_name      = FILE_EXTENSION_BLOCK_DATA["long_name"]

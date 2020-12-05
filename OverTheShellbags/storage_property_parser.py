@@ -1,6 +1,5 @@
-import converter as cv
-import defined_list.data_format as data_format
-import main_parser as parser
+import OverTheShellbags.defined_list.data_format as data_format
+from OverTheShellbags import converter as cv, parser
 
 # TODO : Key 고려해서 개발
 # TODO : PropertyNamedValue 구분
