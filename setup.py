@@ -3,7 +3,7 @@ import setuptools
 setuptools.setup(
     name                = "OverTheShellbags",
     description         = "Windows Shell Item parser for shellbags' data.",
-    version             = "0.0.1b0",
+    version             = "0.0.1",
     author              = "0xC0DE (49374)",
     author_email        = "winder1492@gmail.com",
     url                 = "https://github.com/49374/OverTheShellbags",
